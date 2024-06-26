@@ -1,9 +1,0 @@
-{
-  "files.associations": {
-    "*.liquid": "html"
-  },
-  "liquid.variables": {
-    "asset_url": "/assets/",
-    "shopify_asset_url": "/assets/"
-  }
-}
