@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     {{ content_for_header }}
-    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+    {{ 'style.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
     <main id="main" role="main">
       {{ content_for_layout }}
     </main>
+    <script src="{{ 'script.js' | asset_url }}" defer></script>
   </body>
 </html>
